@@ -1,0 +1,110 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Tn 49 Pet Lover | Mobile</title>
+    <!-- Font Awesome Icons (lightweight for mobile) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- External mobile-first CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===== MOBILE-OPTIMIZED HEADER with HAMBURGER ===== -->
+    <header class="mobile-header">
+        <div class="header-top">
+            <div class="shop-brand">
+                <i class="fas fa-temple"></i>
+                <h1 class="shop-name">Tn 49 Pet Lover</h1>
+                <i class="fas fa-feather-alt"></i>
+            </div>
+            <!-- Hamburger button (visible only on mobile) -->
+            <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        
+        <!-- Navigation menu (collapsible) -->
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="#" class="nav-item active-home"><i class="fas fa-home"></i> HOME</a>
+            <a href="#" class="nav-item"><i class="fas fa-dove"></i> Pigeon</a>
+            <a href="#" class="nav-item"><i class="fas fa-fish"></i> Fish</a>
+            <a href="#" class="nav-item"><i class="fas fa-rabbit"></i> Rabbit</a>
+            <a href="#" class="nav-item"><i class="fas fa-paw"></i> Hamster</a>
+            <a href="#" class="nav-item"><i class="fas fa-paw"></i> Dwarf</a>
+            <a href="#" class="nav-item"><i class="fas fa-seedling"></i> Plants</a>
+        </nav>
+        <!-- Decorative temple border -->
+        <div class="gopuram-border"></div>
+    </header>
+
+    <!-- ===== HERO BANNER (compact for mobile) ===== -->
+    <section class="hero-banner">
+        <div class="kolam-icons">
+            <i class="fas fa-sun"></i> 🪔 <i class="fas fa-cloud-rain"></i>
+        </div>
+        <div class="hero-text">
+            <h2>🌾 FABULOUS PETS </h2>
+            <p>Thanjavur · Paddy · Culture</p>
+        </div>
+        <div class="kolam-icons">
+            🐟 🐇 🐁 <i class="fas fa-leaf"></i>
+        </div>
+    </section>
+
+    <!-- ===== MAIN BUTTON (touch friendly) ===== -->
+    <div class="button-wrapper">
+        <button class="cta-button" id="greetButton">
+            <i class="fas fa-drumstick-bite"></i>  
+            <span>VIEW STOCK</span>
+            <i class="fas fa-seedling"></i>
+        </button>
+    </div>
+
+    <!-- ===== SECTION TITLE ===== -->
+    <h2 class="section-title">
+        <i class="fas fa-clipboard-list"></i> 
+        Thanjavur Collection
+    </h2>
+
+    <!-- ===== ITEM GRID (optimized for touch, vertical scroll) ===== -->
+    <div class="item-grid" id="petListContainer">
+        <!-- All items from description (condensed for mobile readability) -->
+        <div class="item-card"><div class="item-name">Silverado dark knight <i class="fas fa-dragon"></i></div><div class="item-desc">Pair 100</div><div class="item-extra">🌟 pigeon</div></div>
+        <div class="item-card"><div class="item-name">Yellow pingu <i class="fas fa-fish"></i></div><div class="item-desc">100</div><div class="item-extra">🐟 fancy</div></div>
+        <div class="item-card"><div class="item-name">Imperial blue dragon</div><div class="item-desc">100</div><div class="item-extra">✨ fighter</div></div>
+        <div class="item-card"><div class="item-name">Japanese blue <i class="fas fa-fish"></i></div><div class="item-desc">Pair 120</div><div class="item-extra">🇯🇵 koi</div></div>
+        <div class="item-card"><div class="item-name">Blue koi <i class="fas fa-fish"></i></div><div class="item-desc">Pair 120</div><div class="item-extra">🌀 butterfly</div></div>
+        <div class="item-card"><div class="item-name">Blue panda <i class="fas fa-panda"></i></div><div class="item-desc">Pair 100</div><div class="item-extra">🐼 platy</div></div>
+        <div class="item-card"><div class="item-name">Gold male</div><div class="item-desc">piece 50</div><div class="item-extra">⭐ breeder</div></div>
+        <div class="item-card"><div class="item-name">Green dragon</div><div class="item-desc">Pair 150</div><div class="item-extra">🐉 betta</div></div>
+        <div class="item-card"><div class="item-name">Blue texido koi</div><div class="item-desc">Trio 200</div><div class="item-extra">🐠 tuxedo</div></div>
+        <div class="item-card"><div class="item-name">Ivery green trio</div><div class="item-desc">450 breed</div><div class="item-extra">🌱 breeders</div></div>
+        <div class="item-card"><div class="item-name">Shrimp <i class="fas fa-shrimp"></i></div><div class="item-desc">Pair 30</div><div class="item-extra">🦐 cherry</div></div>
+        <div class="item-card"><div class="item-name">Platy <i class="fas fa-fish"></i></div><div class="item-desc">Pair 40</div><div class="item-extra">🐡 mickey</div></div>
+        <div class="item-card"><div class="item-name">Guppy grass</div><div class="item-desc">bunch</div><div class="item-extra">💚 plant</div></div>
+        <div class="item-card"><div class="item-name">Foxtail</div><div class="item-desc">bunch</div><div class="item-extra">🌾 aquatic</div></div>
+        <div class="item-card"><div class="item-name">Santa Claus</div><div class="item-desc">Pair 100</div><div class="item-extra">🎄 platy</div></div>
+        <div class="item-card"><div class="item-name">Full black</div><div class="item-desc">Pair 100</div><div class="item-extra">⚫ molly</div></div>
+    </div>
+
+    <!-- ===== CULTURAL DECOR ===== -->
+    <div class="cultural-decor">
+        <div class="kolam-row">🪔 🌾 🪔 🌾 🪔 🌾</div>
+    </div>
+
+    <!-- ===== FOOTER (compact) ===== -->
+    <footer class="tanjore-footer">
+        <div class="footer-mural">🐚 🌾 🪔 🌻 🐓 🐘</div>
+        <p class="footer-shop">📍 Near Big Temple, Thanjavur</p>
+        <p class="footer-contact"><i class="fas fa-phone-alt"></i> +91 97919 84949</p>
+        <p class="footer-tagline">🌿 Agriculture, culture & pet heritage</p>
+    </footer>
+
+    <!-- External JavaScript (mobile interactions) -->
+    <script src="script.js"></script>
+</body>
+</html>
